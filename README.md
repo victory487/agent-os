@@ -59,11 +59,11 @@ permission_mode: default
 
 `protocol` 可选值：
 
-| 协议              | 接口                              |
-| ----------------- | --------------------------------- |
-| `anthropic`     | Anthropic Messages API 或兼容服务 |
-| `openai`        | OpenAI Responses API              |
-| `openai-compat` | OpenAI 兼容 Chat Completions API  |
+| 协议 | 接口 |
+| --- | --- |
+| `anthropic` | Anthropic Messages API 或兼容服务 |
+| `openai` | OpenAI Responses API |
+| `openai-compat` | OpenAI 兼容 Chat Completions API |
 
 ### API Key
 
@@ -116,30 +116,30 @@ labagent --remote
 labagent --mode plan
 ```
 
-| 模式                  | 行为                         |
-| --------------------- | ---------------------------- |
-| `default`           | 危险操作前确认               |
-| `acceptEdits`       | 自动接受文件编辑             |
-| `plan`              | 只规划，不执行修改           |
+| 模式 | 行为 |
+| --- | --- |
+| `default` | 危险操作前确认 |
+| `acceptEdits` | 自动接受文件编辑 |
+| `plan` | 只规划，不执行修改 |
 | `bypassPermissions` | 绕过确认，仅用于可信隔离环境 |
 
 ## 常用斜杠命令
 
-| 命令                  | 说明              |
-| --------------------- | ----------------- |
-| `/help [命令]`      | 查看帮助          |
-| `/clear`            | 清除当前对话      |
-| `/compact [重点]`   | 压缩上下文        |
-| `/plan [任务]`      | 进入规划模式      |
-| `/session list`     | 管理会话          |
-| `/memory list`      | 查看记忆          |
-| `/permission rules` | 查看权限规则      |
-| `/mcp`              | 查看 MCP 状态     |
-| `/skill list`       | 查看 Skill        |
-| `/tasks`            | 查看后台任务      |
-| `/trace`            | 查看 Agent 追踪树 |
-| `/worktree list`    | 查看 Git Worktree |
-| `/status`           | 查看当前状态      |
+| 命令 | 说明 |
+| --- | --- |
+| `/help [命令]` | 查看帮助 |
+| `/clear` | 清除当前对话 |
+| `/compact [重点]` | 压缩上下文 |
+| `/plan [任务]` | 进入规划模式 |
+| `/session list` | 管理会话 |
+| `/memory list` | 查看记忆 |
+| `/permission rules` | 查看权限规则 |
+| `/mcp` | 查看 MCP 状态 |
+| `/skill list` | 查看 Skill |
+| `/tasks` | 查看后台任务 |
+| `/trace` | 查看 Agent 追踪树 |
+| `/worktree list` | 查看 Git Worktree |
+| `/status` | 查看当前状态 |
 
 ## MCP 示例
 
