@@ -1,4 +1,4 @@
-# LabAgent-2
+# LabAgent-2-1
 
 LabAgent 是面向科研与工程任务的终端 AI Agent。它可以在受控权限下阅读和修改代码、执行命令、管理会话和上下文，并支持 MCP、Skill、子 Agent、团队协作与 Git Worktree。
 
